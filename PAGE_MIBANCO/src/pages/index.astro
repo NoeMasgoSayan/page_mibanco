@@ -1,0 +1,127 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import Navbar from "../components/Navbar.astro";
+---
+
+<MainLayout title="Match Talento MiBanco">
+  <Navbar />
+
+  <!-- HERO -->
+  <section id="inicio" class="hero-section d-flex align-items-center text-white">
+    <div class="hero-overlay"></div>
+
+    <div class="container position-relative z-1">
+      <div class="row">
+        <div class="col-lg-7">
+
+          <span class="badge bg-mibanco-yellow text-dark mb-3 px-3 py-2 rounded-pill fw-bold shadow-sm">
+            Desafío MiBanco
+          </span>
+
+          <h1 class="display-3 fw-bold mb-3">
+            Tu próximo gran salto profesional está aquí 🚀
+          </h1>
+
+          <p class="lead mb-4">
+            "Match Talento" conecta a graduadas de +ChicasTec con oportunidades reales en MiBanco. 
+            Automatizamos el match para que tu talento brille sin fricción.
+          </p>
+
+          <div class="d-flex gap-3 flex-wrap">
+            <a href="#registro" class="btn btn-lg btn-mibanco-yellow px-5 rounded-pill fw-bold shadow-sm">
+              Postular Ahora
+            </a>
+
+            <a href="#vacantes" class="btn btn-lg btn-outline-light px-5 rounded-pill">
+              Ver Oportunidades
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section class="py-5 bg-light">
+    <div class="container py-4">
+
+      <div class="text-center mb-5">
+        <h2 class="fw-bold text-mibanco-green">
+          ¿Por qué usar Match Talento?
+        </h2>
+        <p class="text-muted lead">
+          Impulsando el talento femenino hacia oportunidades reales.
+        </p>
+      </div>
+
+      <div class="row g-4 text-center">
+
+        <!-- CARD 1 -->
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm p-4 rounded-4 hover-card">
+
+            <div class="mb-3 mx-auto d-flex align-items-center justify-content-center rounded-circle"
+                 style="width:70px;height:70px;background: var(--mibanco-green-light);">
+
+              <i class="fas fa-magic fa-2x text-white"></i>
+            </div>
+
+            <h4 class="fw-semibold text-mibanco-green">
+              Match Automático
+            </h4>
+
+            <p class="text-muted small">
+              Nuestro sistema analiza tu perfil y encuentra oportunidades compatibles sin esfuerzo.
+            </p>
+
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm p-4 rounded-4 hover-card">
+
+            <div class="mb-3 mx-auto d-flex align-items-center justify-content-center rounded-circle"
+                 style="width:70px;height:70px;background: var(--mibanco-blue);">
+
+              <i class="fas fa-eye fa-2x text-white"></i>
+            </div>
+
+            <h4 class="fw-semibold text-mibanco-green">
+              Visibilidad Directa
+            </h4>
+
+            <p class="text-muted small">
+              Tu perfil llega directamente al equipo de reclutamiento sin intermediarios.
+            </p>
+
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm p-4 rounded-4 hover-card">
+
+            <div class="mb-3 mx-auto d-flex align-items-center justify-content-center rounded-circle"
+                 style="width:70px;height:70px;background: var(--mibanco-orange);">
+
+              <i class="fas fa-briefcase fa-2x text-white"></i>
+            </div>
+
+            <h4 class="fw-semibold text-mibanco-green">
+              Oportunidades Reales
+            </h4>
+
+            <p class="text-muted small">
+              Accede a vacantes reales alineadas a tu perfil y crecimiento profesional.
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</MainLayout>
